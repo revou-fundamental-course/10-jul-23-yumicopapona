@@ -1,0 +1,105 @@
+body {
+    font-family: Arial;
+    padding: 25px 100px;
+    max-width:1000px;
+  }
+  
+  .form {
+    background-color: rgb(239, 236, 236);
+    border-radius: 10px;
+    padding: 15px 20px;
+  }
+  
+  .material-icons{
+    position: relative;
+    top: 8px;
+    left: 8px;
+  }
+  
+  input[type="text"] {
+      width: 95%;
+      padding: 8px 10px;
+      position: relative;
+      left: 9px;
+      margin: 5px 0px;
+    }
+  
+  .calculate{
+    background-color: rgb(70, 162, 219);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 5px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: medium;
+    }
+  
+  input[type="button"] {
+    display: inline-block;
+    background-color: rgb(70, 162, 219);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size:medium;
+  }
+  
+  input[type="reset"] {
+    background-color: white;
+    border-color: rgb(239, 236, 236);
+    border-style: ridge;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 5px 0;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .hasil {
+    height: 100px;
+    background-color: rgb(239, 236, 236);
+    border-radius: 10px;
+    padding: 5px 2px;
+    font-size: larger;
+    text-align: center;
+  }
+  
+  #table {
+    height: 124px;
+    background-color: rgb(239, 236, 236);
+    border-radius: 10px;
+    margin: 0 auto;
+    border: 1px solid rgb(70, 162, 219);
+  }
+  
+  table, th, td {
+    margin: auto;
+    text-align: center;
+    border: 1px solid black;
+  }
+  
+  .button{
+    text-align: center;
+  }
+  
+  .penutup {
+    background-color: rgb(239, 236, 236);
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px 2px;
+  }
+  
+  .download{
+    text-align: center;
+    font-size: large;
+  }
+  
+  img{
+    border-radius: 5px;
+    height: 30px;
+  }
+  

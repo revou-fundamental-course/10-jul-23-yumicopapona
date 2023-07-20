@@ -1,0 +1,82 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Project</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+  <body>
+    <div class="calculator-container">
+    <h1>Kalkulator BMI</h1>
+    <p>Berat badan ideal adalah impian semua orang. Tidak hanya memiliki bentuk tubuh yang menunjang penampilan, berat badan ideal juga menandakan kondisi tubuh yang sehat. Bagaimana denganmu? Yuk, hitung sekarang di kalkulator BMI.</p>
+        <div class="form">
+          <label for="jeniskelamin"><b>Jenis Kelamin</b></label><br /><br />
+          <input type="radio" class="gender-input-field" name="jeniskelamin" value="Pria" /><b>Pria</b>
+          <input type="radio" class="gender-input-field" name="jeniskelamin" value="Wanita" /><b>Wanita</b><br /><br />
+          <label for="beratbadan"><b>Berat Badan (kg)</b></label><br />
+          <i class="material-icons">create</i>
+          <input class="weight-input-field" type="text" id="beratbadan" name="beratbadan"><br /><br />
+          <label for="usia"><b>Usia (tahun)</b></label><br />
+          <i class="material-icons">create</i>
+          <input class="age-input-field" type="text" id="usia" name="usia"><br /><br />
+          <label for="tinggibadan"><b>Tinggi badan (cm)</b></label><br />
+          <i class="material-icons">create</i>
+          <input class="height-input-field" type="text" id="tinggibadan" name="tinggibadan"><br /><br />
+          <button class="calculate">Hitung BMI</button>
+          <input type="Reset"></input>
+        </div>
+      </div>
+    <br />
+      <h2>Hasil</h2>
+        <div class="hasil">
+          <b><p class="result"  style="font-size: larger"></p></b>
+          <p class="result-statement"></p>
+        </div>
+      <br /><br />
+        <div class="tabel" id="table">
+          <table>
+            <br />
+              <caption><b>BMI INDEX</b></caption>
+              <tr>
+                <th>Underweight</th>
+                <th>Normal & Healthy</th> 
+                <th>Overweight</th>
+                <th>Obese</th>
+              </tr>
+              <tr>
+                <td> <18.5</td>
+                <td>18.5–24.9</td>
+                <td>25.0–29.9</td>
+                <td> >30.0</td>
+              </tr>
+            </table>
+          </div>
+          <br /><br />
+        <div class="button"> 
+          <input type="button" class="hasilbmi" value="Download Hasil BMI" />
+          <input type="button" value="Konsultasi Ahli Gizi Via Aplikasi" />
+          <input type="button" value="Registrasi Online Ahli Gizi" />
+        </div><br /><br />
+        <p>BMI tidak sepenuhnya mewakili diagnosis menyeluruh dari kesehatan tubuh dan resiko penyakit seseorang. Anda perlu konsultasi lebih lanjut mengenai resiko dan kekhawatiran Anda terkait dengan berat badan Anda.</p><br /><br />
+      <div class="penutup">
+        <p style="font-size: larger">Beberapa penyakit yang berasal dari kegemukan</p>
+        <p style="color: grey">
+          Diabetes<br />
+          Hipertensi<br />
+          Sakit Jantung<br />
+          Osteoarthritis
+        </p>
+        <input type="button" value="Konsultasi Dokter Via Aplikasi" />
+        <input type="button" value="Registrasi Online Sekarang" /><br /><br />
+      </div>
+        <br /><br />
+      <div class="download">
+        <b><p class="download">Download Aplikasi</p></b>
+        <a class="link" href="https://play.google.com/" title="link Google Play Store"><img src="Google Play.jpg" alt="google play logo"></a>
+        <a class="link" href="https://www.apple.com/id/app-store/" title="link App Store"><img src="App Store.jpg" alt="app store logo"></a>
+      </div>
+      <script src="script.js"></script>
+  </body>
+</html>
